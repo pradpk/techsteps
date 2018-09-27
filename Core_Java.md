@@ -8,3 +8,9 @@ Class: blueprint or prototype of object which defines its state and behavior.
 Interface: It is a contract where anybody implementing an interface needs to provide the behavior.
 
 
+Pass By Value
+--------------------
+Java passes the arguments by value. 
+When you send primitive data as an argument to a method, any changes in the value of the parameter will exist only within the scope of the method. When the method returns, any changes to them are lost. 
+When you send an object to a method, JVM passes the object reference to the method. Values of the object’s fields can be changed if they have proper access level and it will still be reflected outside of the method. If you create a new reference for the object within the method, object reference will not be changed outside the method. 
+
