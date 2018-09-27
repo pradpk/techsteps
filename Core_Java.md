@@ -17,3 +17,8 @@ Java passes the arguments by value.
 When you send primitive data as an argument to a method, any changes in the value of the parameter will exist only within the scope of the method. When the method returns, any changes to them are lost. 
 When you send an object to a method, JVM passes the object reference to the method. Values of the object’s fields can be changed if they have proper access level and it will still be reflected outside of the method. If you create a new reference for the object within the method, object reference will not be changed outside the method. 
 
+HashMap
+-----------
+
+Hashmap stores the object as key-value pair. It stores the data in the bucket and labels the bucket with the hash of the key. Hashmap uses Array and LinkedList data structure to achieve this. It is similar to Hashtable except that it is unIt permits null key and null values.
+
