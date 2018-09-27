@@ -1,3 +1,6 @@
+Java SE - Java Standard Edition, Java EE - Java Enterprise Edition
+
+
 Object Oriented Concepts
 ------------------------------------
 Abstraction: In Java, abstraction is hiding certain details and showing essential features of the object. It lets users to focus on capabilities of the object, not on how it does. 
