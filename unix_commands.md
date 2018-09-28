@@ -2,7 +2,7 @@
 | ------------- |:-------------:|           
 |ls|lists files|
 |rm \<filename\>|removes file|
-|diff \<file1\> <file2>|compares files|
+|diff \<file1\> \<file2\>|compares files|
 |wc \<filename\> |tells stats(words, lines & characters) on the files|
 |mkdir \<dirnam\>|creates directory|pwd|tells where you are|
 |ff \<filename\>|find files anywhere in the system|
