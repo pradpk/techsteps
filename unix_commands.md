@@ -17,7 +17,7 @@
 |setenv <key> <value>|to set environment variables|
 |unset <key>|to un-set environment variables|
 |systemctl status <serviceprocess>|example: systemctl status jenkins_slave.service|
-|cat <json file> | python -m json.tool| display json file in pretty format|
+|cat <json file> \| python -m json.tool| display json file in pretty format|
 |curl <url>|calling the url|
 |tail <filename>|displays last part of the file|
 |cat <filename>|prints file|
