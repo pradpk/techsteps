@@ -11,7 +11,7 @@
 |who|tells who's logged on and where they are coming from|
 |finger <username>|tells details about the user|
 |last -l <username>|tells you when the user last logged on and off and from where|
-|kill <pid>|kills (ends) the processes with the ID you gave. This works only for your own processes|date|shows the current date and time|
+|kill \<pid\>|kills (ends) the processes with the ID you gave. This works only for your own processes|date|shows the current date and time|
 |cal|shows the calendar of the month|
 |ps -u <username>| lists your processes including the process ID|
 |setenv <key> <value>|to set environment variables|
