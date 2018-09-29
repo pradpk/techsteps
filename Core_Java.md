@@ -20,5 +20,7 @@ When you send an object to a method, JVM passes the object reference to the meth
 HashMap
 -----------
 
-Hashmap stores the object as key-value pair. It stores the data in the bucket and labels the bucket with the hash of the key. Hashmap uses Array and LinkedList data structure to achieve this. It is similar to Hashtable except that it is unIt permits null key and null values.
+- Hashmap stores the object as key-value pair. 
+- It stores the data in the bucket and labels the bucket with the hash of the key. Hashmap uses Array and LinkedList data structure to achieve this. 
+- It is similar to Hashtable except that it is unsychronized and permits null key and null values.
 
