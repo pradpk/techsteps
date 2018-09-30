@@ -20,7 +20,7 @@ When you send an object to a method, JVM passes the object reference to the meth
 HashMap
 -----------
 -  Initial capacity of hashmap is number of buckets in hash table. We can create HashMap with initial capacity and load factor. When the load factor reaches 75% (12), the size of the hashmap is doubled by recomputing its hashcode of existing data structure elements.
-- It is similar to Hashtable except that it is unsychronized and permits null key (once) and (multiple) null values.
+- It is similar to Hashtable except that HashMap is unsychronized and permits null key (once) and (multiple) null values.
 - Hashmap has 2 methods mainly - put and get. Put method gets the hash code of the key and identifies the bucket where Entry object will be stored. Hash collision occurs if the bucket is already present. equals() method is used to find if the key already exists in the bucket. If found, value will be replaced. If not found, a new node (Entry object) is created with the same bucket (LinkedList data structure will be used). Get method will also calculate the hashcode of key  to identify the bucket to pull the Entry object.
 - Java 8 uses balanced trees data structure instead of LinkedList to optimize within the bucket after a certain threshold is reached.
 
