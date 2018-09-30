@@ -20,6 +20,6 @@ When you send an object to a method, JVM passes the object reference to the meth
 HashMap
 -----------
 -  Initial capacity of hashmap is number of buckets in hash table. When the load factor reaches 75% (12), the size of the hashmap is doubled by recomputing its hashcode of existing data structure elements. We can create HashMap with initial capacity and load factor. Hashmap stores the object as key-value pair. 
-- It stores the data in the bucket and labels the bucket with the hash of the key. Hashmap uses Array and LinkedList data structure to achieve this. 
-- It is similar to Hashtable except that it is unsychronized and permits null key and null values.
+- Hashmap works on the principle of hashing. Hashmap stores the object as key-value pair as bucket (Entry object). Hashmap uses Array and LinkedList data structure to achieve this. 
+- It is similar to Hashtable except that it is unsychronized and permits null key (once) and multiple null values.
 
