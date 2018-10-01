@@ -1,6 +1,6 @@
 | Cmd        | Desc|
 | ------------- |:-------------:|           
-|ls|lists files|
+|ls -l \<filename/command\(optional)>|lists files using longlisted format (|
 |rm \<filename\>|removes file|
 |diff \<file1\> \<file2\>|compares files|
 |wc \<filename\> |tells stats(words, lines & characters) on the files|
