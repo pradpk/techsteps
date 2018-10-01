@@ -28,6 +28,8 @@
 |id|information about your identity|
 |pbrun beroot|elevate the user to root|
 |cat /etc/passwd|display all users|
+|su /<username/>|switch user to|
+
 
 
 
