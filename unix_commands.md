@@ -29,6 +29,7 @@
 |pbrun beroot|elevate the user to root|
 |cat /etc/passwd|display all users|
 |su \<username\>|switch user to|
+|chmode \<mode\> \<filename\>|changes the mode (owner, group and world) of the file|
 
 
 
