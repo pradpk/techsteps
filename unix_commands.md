@@ -25,7 +25,9 @@
 |top|displays process information|
 |netstat|network status|
 |ip address|displays host address|
-
+|id|information about your identity|
+|pbrun beroot|elevate the user to root|
+|cat /etc/passwd|display all users|
 
 
 
