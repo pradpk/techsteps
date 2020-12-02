@@ -1,6 +1,6 @@
-# Linux
+# Linux Commands
 
-## Physical Volumes, Volume Groups, Logical Volumes
+#### Physical Volumes, Volume Groups, Logical Volumes
 
 | Syntax | Description |
 | ---- | ------------- |
