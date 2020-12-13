@@ -12,4 +12,18 @@ To run .go files in Windows,
 Alternatively, we can use
 * go run <filename>.go
   
+## Variables
+
+Declaring variables as below
+
+var <variable-name> <type - optional> = <value - optional>
+  
+We can use type inference when we initilize the variable with value.  
+
+Examples:
+var num1  = 5
+var str string; (value of str will be "")
+var raining bool = true
+  
+  
   
