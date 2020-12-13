@@ -21,9 +21,9 @@ var <variable-name> <type - optional> = <value - optional>
 We can use type inference when we initilize the variable with value.  
 
 Examples:
-var num1  = 5
-var str string; (value of str will be "")
-var raining bool = true
+var num1  = 5 <br />
+var str string; (value of str will be "") <br />
+var raining bool = true 
   
   
   
